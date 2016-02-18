@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E3CC12FC82349EAEE7A417B /* Pods_chattyParse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B3239F839F5996BB3958FA /* Pods_chattyParse.framework */; };
+		7A98B9FB1C757041004CEB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A98B9FA1C757041004CEB33 /* AppDelegate.swift */; };
+		7A98B9FD1C757041004CEB33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A98B9FC1C757041004CEB33 /* ViewController.swift */; };
+		7A98BA001C757041004CEB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A98B9FE1C757041004CEB33 /* Main.storyboard */; };
+		7A98BA021C757041004CEB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A98BA011C757041004CEB33 /* Assets.xcassets */; };
+		7A98BA051C757041004CEB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A98BA031C757041004CEB33 /* LaunchScreen.storyboard */; };
+		7AA7D31F1C757101006A127E /* tmp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA7D31E1C757101006A127E /* tmp.m */; };
+		7AA7D3211C75752B006A127E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA7D3201C75752B006A127E /* ChatViewController.swift */; };
+		7AA7D3251C757D56006A127E /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA7D3241C757D56006A127E /* ChatCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09B3239F839F5996BB3958FA /* Pods_chattyParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chattyParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79000A021BAA5DB5EBDE22FB /* Pods-chattyParse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chattyParse.release.xcconfig"; path = "Pods/Target Support Files/Pods-chattyParse/Pods-chattyParse.release.xcconfig"; sourceTree = "<group>"; };
+		7A98B9F71C757041004CEB33 /* chattyParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chattyParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A98B9FA1C757041004CEB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A98B9FC1C757041004CEB33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A98B9FF1C757041004CEB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A98BA011C757041004CEB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A98BA041C757041004CEB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A98BA061C757041004CEB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA7D31D1C757100006A127E /* chattyParse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chattyParse-Bridging-Header.h"; sourceTree = "<group>"; };
+		7AA7D31E1C757101006A127E /* tmp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmp.m; sourceTree = "<group>"; };
+		7AA7D3201C75752B006A127E /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7AA7D3241C757D56006A127E /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		A1176635392C1BA26FB322DA /* Pods-chattyParse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chattyParse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chattyParse/Pods-chattyParse.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A98B9F41C757041004CEB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3CC12FC82349EAEE7A417B /* Pods_chattyParse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4634D41EBEA2FA781CCF684A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09B3239F839F5996BB3958FA /* Pods_chattyParse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A98B9EE1C757041004CEB33 = {
+			isa = PBXGroup;
+			children = (
+				7AA7D31E1C757101006A127E /* tmp.m */,
+				7A98B9F91C757041004CEB33 /* chattyParse */,
+				7A98B9F81C757041004CEB33 /* Products */,
+				986F2C42FAB4532A85225ABE /* Pods */,
+				4634D41EBEA2FA781CCF684A /* Frameworks */,
+				7AA7D31D1C757100006A127E /* chattyParse-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		7A98B9F81C757041004CEB33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A98B9F71C757041004CEB33 /* chattyParse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A98B9F91C757041004CEB33 /* chattyParse */ = {
+			isa = PBXGroup;
+			children = (
+				7AA7D3241C757D56006A127E /* ChatCell.swift */,
+				7A98B9FA1C757041004CEB33 /* AppDelegate.swift */,
+				7A98B9FC1C757041004CEB33 /* ViewController.swift */,
+				7A98B9FE1C757041004CEB33 /* Main.storyboard */,
+				7A98BA011C757041004CEB33 /* Assets.xcassets */,
+				7A98BA031C757041004CEB33 /* LaunchScreen.storyboard */,
+				7A98BA061C757041004CEB33 /* Info.plist */,
+				7AA7D3201C75752B006A127E /* ChatViewController.swift */,
+			);
+			path = chattyParse;
+			sourceTree = "<group>";
+		};
+		986F2C42FAB4532A85225ABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1176635392C1BA26FB322DA /* Pods-chattyParse.debug.xcconfig */,
+				79000A021BAA5DB5EBDE22FB /* Pods-chattyParse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A98B9F61C757041004CEB33 /* chattyParse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A98BA091C757041004CEB33 /* Build configuration list for PBXNativeTarget "chattyParse" */;
+			buildPhases = (
+				087FFE965E06743A68EC2B08 /* Check Pods Manifest.lock */,
+				7A98B9F31C757041004CEB33 /* Sources */,
+				7A98B9F41C757041004CEB33 /* Frameworks */,
+				7A98B9F51C757041004CEB33 /* Resources */,
+				42986C25E8E8FB77F4BF4212 /* Embed Pods Frameworks */,
+				F6D1505E3700D97507688D51 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chattyParse;
+			productName = chattyParse;
+			productReference = 7A98B9F71C757041004CEB33 /* chattyParse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A98B9EF1C757041004CEB33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jennifer Lee";
+				TargetAttributes = {
+					7A98B9F61C757041004CEB33 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7A98B9F21C757041004CEB33 /* Build configuration list for PBXProject "chattyParse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A98B9EE1C757041004CEB33;
+			productRefGroup = 7A98B9F81C757041004CEB33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A98B9F61C757041004CEB33 /* chattyParse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A98B9F51C757041004CEB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A98BA051C757041004CEB33 /* LaunchScreen.storyboard in Resources */,
+				7A98BA021C757041004CEB33 /* Assets.xcassets in Resources */,
+				7A98BA001C757041004CEB33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		087FFE965E06743A68EC2B08 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42986C25E8E8FB77F4BF4212 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chattyParse/Pods-chattyParse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D1505E3700D97507688D51 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chattyParse/Pods-chattyParse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A98B9F31C757041004CEB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA7D31F1C757101006A127E /* tmp.m in Sources */,
+				7A98B9FD1C757041004CEB33 /* ViewController.swift in Sources */,
+				7AA7D3211C75752B006A127E /* ChatViewController.swift in Sources */,
+				7AA7D3251C757D56006A127E /* ChatCell.swift in Sources */,
+				7A98B9FB1C757041004CEB33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A98B9FE1C757041004CEB33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A98B9FF1C757041004CEB33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A98BA031C757041004CEB33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A98BA041C757041004CEB33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A98BA071C757041004CEB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A98BA081C757041004CEB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A98BA0A1C757041004CEB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1176635392C1BA26FB322DA /* Pods-chattyParse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = chattyParse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.chattyParse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "chattyParse-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A98BA0B1C757041004CEB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79000A021BAA5DB5EBDE22FB /* Pods-chattyParse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = chattyParse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.chattyParse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "chattyParse-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A98B9F21C757041004CEB33 /* Build configuration list for PBXProject "chattyParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A98BA071C757041004CEB33 /* Debug */,
+				7A98BA081C757041004CEB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A98BA091C757041004CEB33 /* Build configuration list for PBXNativeTarget "chattyParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A98BA0A1C757041004CEB33 /* Debug */,
+				7A98BA0B1C757041004CEB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A98B9EF1C757041004CEB33 /* Project object */;
+}

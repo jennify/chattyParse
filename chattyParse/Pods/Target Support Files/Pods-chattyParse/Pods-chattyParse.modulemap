@@ -1,0 +1,6 @@
+framework module Pods_chattyParse {
+  umbrella header "Pods-chattyParse-umbrella.h"
+
+  export *
+  module * { export * }
+}
